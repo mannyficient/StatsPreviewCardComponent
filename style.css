@@ -1,0 +1,134 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+aside{
+    max-width: 100%;
+    height: auto;
+}
+.card{
+    max-width: 100%;
+    height: auto;
+}
+span{
+     color: hsl(277, 64%, 61%);
+}
+ul{
+    list-style: none;
+}
+h1{
+    margin: 30px 0 20px;
+    padding: 0 20px ;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.stats ul li {
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+.stats ul li span{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    display: block;
+    
+    font-weight: 700;
+
+}
+.paragraph{
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+.container{
+    background-color: hsl(244, 38%, 16%);
+    text-align: center;
+}
+.picture{
+    background-image: url("./images/image-header-mobile.jpg");
+    background-repeat: no-repeat;
+    min-width: 50%;
+    height: 450px;    
+}
+.overlay{
+    background-color: hsl(277, 64%, 61%);
+    background-blend-mode: multiply;
+    width: 100%;
+}
+
+.attribution {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .attribution a {
+    color: #dcb434;
+  }
+
+  @media (min-width: 768px){
+      main{
+          margin: 200px 0 0 0;
+          flex-direction: row-reverse;
+      }
+
+      footer{
+          margin-top: 190px;
+      }
+
+   h1{
+    margin: 10px 0 30px 20px;
+    padding: 0;
+    text-align: left;
+   }
+   
+   .paragraph{
+    margin: 0 20px 30px 20px;
+    padding: 0;
+    text-align: left;
+   }
+   .overlay{
+       border-radius: 0px 20px 20px 0px;
+   }
+.image{
+    background-image: url("./images/image-header-desktop.jpg");
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;    
+}
+
+.stats{
+    margin: 20px 0px 0px 20px;
+    display: flex;
+    flex-direction: row;
+}
+.container .cardtext .stats ul{
+    display: flex;
+    flex-direction: row;
+}
+.container .cardtext .stats ul li{
+    margin-right: 50px;
+}
+
+  }
